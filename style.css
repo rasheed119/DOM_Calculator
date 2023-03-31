@@ -1,0 +1,40 @@
+#container{
+  background-color: #F5D547;
+  width: 100%;
+}
+h1#title{
+  margin-left: 100px;
+}
+.calculator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form{
+  border: 1px solid black;
+  border-radius: 10px;
+  width:295px;
+  padding: 20px;
+  background-color: #3C3C3B;
+}
+form button{
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+form #result{
+  width: 240px;
+  border-radius: 10px;
+  height: 70px;
+  font-size: 40px;
+  text-align: right;
+  border-radius: 10px;
+  border: none;
+}
+form button.equal{
+  width: 110px;
+  border-radius: 20px;
+}
